@@ -1,0 +1,17 @@
+body {
+    background: lightsteelblue;
+}
+
+select {
+    padding: .5rem;
+    border-radius: .2rem;
+}
+select:hover {
+    cursor: pointer;
+    padding: .6rem;
+    background: mediumaquamarine;
+}
+.wrapSelects {
+    background: lightyellow;
+    padding: .2rem;
+}
