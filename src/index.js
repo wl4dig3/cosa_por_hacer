@@ -1,17 +1,17 @@
 import opciones from './Opciones'
 
-opcioness.addEventListener('change', function(){
-    switch (opcioness.value){
+opcioness.addEventListener('change', function () {
+    switch (opcioness.value) {
         case "Musica": resultados.innerHTML = opciones.Musica();
-        break;
+            break;
         case "Cine": resultados.innerHTML = opciones.Cine();
-        break;
+            break;
         case "Comida": resultados.innerHTML = opciones.Comida();
-        break;
+            break;
         case "Nada":
             resultados.innerHTML = resultado.noSeleccionado();
             break;
 
-            
+
     }
 });

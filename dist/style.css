@@ -1,17 +1,38 @@
 body {
-    background: lightsteelblue;
+    background-image: url('pelis_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+
+}
+
+h5 {
+    color: blue;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 select {
     padding: .5rem;
     border-radius: .2rem;
+
 }
+
 select:hover {
     cursor: pointer;
     padding: .6rem;
-    background: mediumaquamarine;
+
 }
+
 .wrapSelects {
     background: lightyellow;
     padding: .2rem;
+}
+
+.centrar {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
 }

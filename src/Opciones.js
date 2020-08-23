@@ -1,12 +1,12 @@
-const opciones = (() =>{
+const opciones = (() => {
     return {
-        Cine: ()=>{
+        Cine: () => {
             return resultados.innerHTML = ` 
             <h5>Pocahontas<h5/>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/6_85wiWesY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             `
         },
-        Musica: ()=> {
+        Musica: () => {
             return resultados.innerHTML = ` 
             <h5>Chicas Bond</h5>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LNy8r-ZgKgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,7 +19,7 @@ const opciones = (() =>{
             
             `
         },
-        
+
         noSeleccionado: () => {
             return "Hola, por favor seleccina algo, gracias... la gerencia"
         },
@@ -29,6 +29,6 @@ console.log(opciones);
 // funcion detectora de evento
 
 
- 
+
 
 export default opciones
